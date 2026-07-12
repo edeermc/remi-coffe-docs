@@ -1,7 +1,10 @@
-﻿{
+{
   "name": "remicoffee-docs",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
@@ -11,4 +14,3 @@
     "vitepress": "^1.6.3"
   }
 }
-
