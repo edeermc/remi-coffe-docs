@@ -3,12 +3,12 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Remi Coffee",
   description:
-    "Wiki de usuario y administraciÃ³n â€” cafeterÃ­a, POS, comandas e inventario BOM",
+    "Wiki de usuario y administración — cafetería, POS, comandas e inventario BOM",
   lang: "es-ES",
   themeConfig: {
     nav: [
       { text: "Inicio", link: "/" },
-      { text: "ConfiguraciÃ³n inicial", link: "/01-configuracion-inicial" },
+      { text: "Configuración inicial", link: "/01-configuracion-inicial" },
       { text: "Roles y permisos", link: "/02-roles-y-permisos" },
     ],
     sidebar: [
@@ -16,23 +16,23 @@ export default defineConfig({
         text: "Primeros pasos",
         collapsed: false,
         items: [
-          { text: "ConfiguraciÃ³n inicial", link: "/01-configuracion-inicial" },
+          { text: "Configuración inicial", link: "/01-configuracion-inicial" },
           { text: "Roles y permisos", link: "/02-roles-y-permisos" },
           { text: "Inicio del panel", link: "/03-inicio-panel" },
         ],
       },
       {
-        text: "MÃ³dulos",
+        text: "Módulos",
         collapsed: false,
         items: [
-          { text: "Resumen de mÃ³dulos", link: "/modulos/" },
-          { text: "OperaciÃ³n", link: "/modulos/operacion" },
+          { text: "Resumen de módulos", link: "/modulos/" },
+          { text: "Operación", link: "/modulos/operacion" },
           { text: "Punto de venta", link: "/modulos/pos" },
           { text: "Comandas", link: "/modulos/comandas" },
           { text: "WhatsApp", link: "/modulos/whatsapp" },
-          { text: "CatÃ¡logo", link: "/modulos/catalogo" },
+          { text: "Catálogo", link: "/modulos/catalogo" },
           { text: "Reportes", link: "/modulos/reportes" },
-          { text: "ConfiguraciÃ³n", link: "/modulos/configuracion" },
+          { text: "Configuración", link: "/modulos/configuracion" },
           { text: "Soporte plataforma", link: "/modulos/soporte-plataforma" },
         ],
       },
@@ -40,7 +40,7 @@ export default defineConfig({
         text: "Referencia",
         collapsed: false,
         items: [
-          { text: "Claves de secciÃ³n", link: "/referencia/claves-de-seccion" },
+          { text: "Claves de sección", link: "/referencia/claves-de-seccion" },
           { text: "Matriz de roles", link: "/referencia/matriz-roles" },
         ],
       },
@@ -53,7 +53,7 @@ export default defineConfig({
     ],
     footer: {
       message: "Remi Coffee v1.0.0",
-      copyright: "DocumentaciÃ³n de usuario y administraciÃ³n",
+      copyright: "Documentación de usuario y administración",
     },
   },
 });
